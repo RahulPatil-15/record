@@ -1,29 +1,35 @@
 # Record
 
-A dark, reusable landing page template inspired by the design of Resend. Built with plain HTML and CSS, with generic content so it can be reused for any product.
+A dark, reusable landing page template inspired by Resend's design. Plain HTML and CSS, with generic content so it can be reused for any product.
 
 ## Live demo
 
 [View the live site](https://record-plum-nine.vercel.app/)
 
+## Pages
+
+- `index.html`: landing page
+- `signup.html`: sign-up form
+- `login.html`: login form
+
 ## Features
 
-- Flexbox navbar with logo, links and a call-to-action button
-- Hero section with a badge, headline, subtitle and two buttons
-- Three feature cards laid out with CSS grid
-- Footer with copyright line
+- Sticky navbar with a CSS-drawn logo and an SVG favicon
+- Hero with a badge, gradient headline, radial-gradient glow and two buttons
+- Three feature cards with CSS grid and a hover lift
+- Sign-up and login forms with labels, built-in validation and `autocomplete` hints
 - Responsive layout for tablets and phones
 
 ## Built with
 
-- HTML5 (semantic elements: header, nav, main, section, article, footer)
-- CSS3 (custom properties, flexbox, grid, media queries, pseudo-elements, transitions)
+- HTML5 (semantic elements, forms)
+- CSS3 (custom properties, flexbox, grid, gradients, pseudo-elements, transitions, media queries)
+- SVG favicon
 - Inter font from Google Fonts
 - Git, GitHub and Vercel
 
 ## What I learned
 
-- How to use CSS variables so a whole colour scheme can be changed from one place.
-- How flexbox and CSS grid differ: flexbox for one-direction layouts like the navbar, grid for rows and columns like the feature cards.
-- How to build a dark theme with soft off-white text, thin borders and generous spacing, and how a media query changes the layout on small screens.
-
+- How CSS variables let one colour scheme power every page.
+- When to use flexbox (one direction, like the navbar and forms) and when to use grid (rows and columns, like the feature cards).
+- How HTML forms
